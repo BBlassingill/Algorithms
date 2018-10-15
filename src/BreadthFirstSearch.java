@@ -15,7 +15,7 @@ public class BreadthFirstSearch {
     }
 
     /**
-     * Find someone who sells melon. A person sells melon if their name ends in m.
+     * Find someone who sells melons. A person sells melons if their name ends in m.
      * @param graph
      */
     private static void bfs(HashMap<String, List<String>> graph) {
