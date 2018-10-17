@@ -11,7 +11,8 @@ import java.util.stream.Stream;
 
  This is an example of an approximation algorithm that will work
  faster than the exact algorithm that gives the most optimal
- solution.
+ solution. The exact algorithm to give the most optimal solution
+ is to calculate every possible subset of states which is NP-complete.
  */
 public class SetCovering {
     public static void main(String[] args) {
